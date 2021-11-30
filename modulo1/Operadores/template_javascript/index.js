@@ -81,4 +81,4 @@ const resultadoD = (number2%number1) >= 0
 console.log(resultadoA)
 console.log (resultadoB)
 console.log (resultadoC)
-console.log (resultadoD) */
+console.log (resultadoD) */ 
