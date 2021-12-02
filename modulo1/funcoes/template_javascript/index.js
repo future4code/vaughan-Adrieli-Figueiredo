@@ -25,3 +25,4 @@ i.   Eu gosto de cenoura (true)
 ii.  CENOURA é bom pra vista (true)
 iii. Cenouras crescem na terra (true) */
 
+// exercicios de escrita de codigo em outra pull //
