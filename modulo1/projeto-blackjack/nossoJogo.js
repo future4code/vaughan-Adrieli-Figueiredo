@@ -10,3 +10,9 @@
  * 
  * 
  */
+
+console.log("bem vindo ao jogo blackjack")
+if(confirm("pergunta de sim ou não")) { 
+   console.log("for com a açao de player 1 e player 2 ")
+} else ()
+	console.log ("O jogo acabou")
