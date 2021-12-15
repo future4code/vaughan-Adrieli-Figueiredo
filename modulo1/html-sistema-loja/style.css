@@ -1,0 +1,18 @@
+.cabeçalho {
+    background-color: rgb(70, 9, 1);
+    color: whitesmoke;
+}
+
+.cabeçalho2 {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.backgroundTotal { 
+    background-color: rgb(251, 160, 84);
+    color: black;
+}
+
+.img-produto {
+    width: 50px;
+}
