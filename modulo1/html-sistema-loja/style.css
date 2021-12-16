@@ -1,0 +1,35 @@
+.cabeçalho {
+    background-color: rgb(70, 9, 1);
+    color: whitesmoke;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0px;
+    text-align: center
+}
+
+.cabeçalho2 {
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center
+}
+
+.img-produto {
+    width: 150px;
+}
+
+.center {
+    text-align: center
+}
+
+.tamanho1 {
+    width: 150px;   
+}
+
+body {
+margin: 0px;
+}
+
+
