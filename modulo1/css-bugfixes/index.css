@@ -89,6 +89,12 @@ div img {
     font-size: 60px;
 }
 
+.texto-home {
+    position: relative;
+    top: 100px;
+
+    text-align: center;
+}
 
 /**
   *
