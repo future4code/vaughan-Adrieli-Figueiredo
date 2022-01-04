@@ -68,18 +68,6 @@ function checaStringsMesmoTamanho(string1, string2) {
     return comparação
 } 
 
-// EXERCÍCIO 09
-function retornaPrimeiroElemento(array) {
-
-  const array1 = prompt("insira uma fruta")
-  const array2 = prompt("insira uma fruta")
-  const array3 = prompt("insira uma fruta")
-
-  const array = array1,array2,array3
-  const itemArray = item[0]
-  return itemArray
-}
-
 // EXERCÍCIO 09 
 function retornaPrimeiroElemento(array) {
 
@@ -97,9 +85,11 @@ function retornaUltimoElemento(array) {
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
- arrayNova = array.reverse()
+ const itemA = array.length[-1]
+ const itemZ = array[0]
 
- return arrayNova
+ console.log(itemA)
+ console.log(itemZ)
 }
 
 // EXERCÍCIO 12
@@ -111,7 +101,7 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
-  // implemente sua lógica aqui
+  
 }
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
@@ -120,10 +110,4 @@ function checaAnoBissexto(ano) {
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
-}
-
-// EXERCÍCIO 15
-function checaValidadeInscricaoLabenu() {
-  // implemente sua lógica aqui
-
 }

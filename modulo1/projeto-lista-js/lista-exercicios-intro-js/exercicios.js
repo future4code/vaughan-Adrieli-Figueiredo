@@ -86,7 +86,7 @@ function checaStringsMesmoTamanho(string1, string2) {
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
-  
+
   const array1 = prompt("insira uma fruta")
   const array2 = prompt("insira uma fruta")
   const array3 = prompt("insira uma fruta")
@@ -94,30 +94,40 @@ function retornaPrimeiroElemento(array) {
   const array = array1,array2,array3
   const itemArray = item[0]
   return itemArray
+}
 
+// EXERCÍCIO 09 
+function retornaPrimeiroElemento(array) {
+
+  let primeiroItem = array.shift()
+
+  return primeiroItem
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
-  // implemente sua lógica aqui
+   let ultimoItem = array.pop()
 
+    return ultimoItem
 }
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
+ arrayNova = array.reverse()
 
+ return arrayNova
 }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
-
+  let igualdade = string1.toUpperCase() === string2.toUpperCase()
+  console.log (igualdade)
+  return igualdade
 }
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
-  // implemente sua lógica aqui
+  
 
 }
 
