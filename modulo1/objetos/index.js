@@ -32,9 +32,8 @@ console.log(tartaruga) =>
     e em seguida vem as alterações, conhecida como spread. 
     
     3) 
-    a) vai ser impresso false e false 
-    b) pois backender é um booleano false e altura é uma informação que não está
-    armazenada no objeto nem em outra sintaxe fora do objeto.
+    a) vai ser impresso false e undefined
+    b) false veio pq a pessoa do objeto não é backender, e undefined pq no objeto não tem a altura dela 
 
     */
 
@@ -43,7 +42,7 @@ console.log(tartaruga) =>
 // A)
     const pessoa = {
         nome: "Adrieli", 
-        apelidos: [" Dri "," drika "," boca de serrote "]
+        apelidos: [" Dri "," drika "," Adrielinha "]
      }
      function dados(pessoa) {
      console.log (`Eu sou ${pessoa.nome}, mas pode me chamar de: ${pessoa.apelidos}`)
