@@ -58,7 +58,6 @@ function retornaMaiorNumero(array) {
 }
 
 // EXERCÍCIO 07
-// EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
     let maiorNumero
     let menorNumero
@@ -104,6 +103,7 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
     }
 }
 
+// EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
     let menor = Infinity;
     let segundoMenor = Infinity;
