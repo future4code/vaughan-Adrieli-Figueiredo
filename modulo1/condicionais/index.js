@@ -117,11 +117,23 @@ switch (turnoAluno) {
     console.log (`Boa noite ${nomeAluno}`) 
 } */
 
-// 4 //
+// // 4 //
 
-const generoFilme = prompt ("qual genero de filme vocês assistirão ?")
-const preçoFilme = "12" 
-if (generoFilme === "fantasia" && preçoFilme <= "15") {
-  console.log ("Bom filme!!!")
+// const generoFilme = prompt("qual genero de filme vocês assistirão ?")
+// const preçoFilme = prompt("qual o valor de filme vocês assistirão ?")
+// if (generoFilme === "fantasia" && preçoFilme <= 15) {
+//   console.log("Bom filme!!!")
+// } else {
+//   console.log("escolha outro filme")
+// }
+
+// desafio 1 
+
+const generoFilme = prompt("qual genero de filme vocês assistirão ?")
+const preçoFilme = prompt("qual o valor de filme vocês assistirão ?")
+if (generoFilme === "fantasia" && preçoFilme <= 15) {
+  const lanchinho = prompt("qual lanchinho vcs vão comprar ?")
+  console.log(`Bom filme!!! e aproveite seu ${lanchinho}`)
+} else {
+  console.log("escolha outro filme")
 }
- 
