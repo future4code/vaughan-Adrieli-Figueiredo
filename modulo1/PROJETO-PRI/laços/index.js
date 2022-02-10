@@ -4,8 +4,12 @@
 
 //  2 a) vai ser impresso no console todos os numeros maiores q 18
 
+
+// b) teria q pedir pro console.log imprimir o indice tbm, e após o console.log colocar um indice++
+
 // b) declara q indice é igual a 0 fora da função, dentro do if no console pede pra que imprima o indice, fora de if declara indice++ 
 // pra q sempre q a função fizer loop adicione 1 ao indice. 
+
 
 // 3) quantidadeTotal definirá quantas vezes * será impresso, desde que quantidadeTotal seja maior que quantidadeAtual. 
 // resposta do console ficará 
@@ -19,6 +23,31 @@
 // escrita de codigo 
 
 // 1 a)
+
+// let numeroDeBichinhos = Number(prompt("quantos bichinhos você tem ? "))
+// if (numeroDeBichinhos = 0) {
+//     console.log("você pode adotar seu primeiro bichinho")
+// } else if (numeroDeBichinhos > 0 ) {
+//     let array = []
+//     let i = 0 
+//     while (i < numeroDeBichinhos) {
+//         nomeBichinho = prompt("qual o nome do seu bichinho ?")
+//         array.push(nomeBichinho)
+//         i++
+//     }
+//     console.log(array)
+// } 
+
+// 2)
+
+const arrayOriginal = [12, 24, 36, 48, 60]
+
+valorArray = (arrayOriginal) => {
+    
+
+}
+
+
 
 // const numeroDeBichinhos = Number(prompt("quantos bichinhos você tem ?"))
 // if (numeroDeBichinhos === 0) {
@@ -70,3 +99,4 @@ imprimeValor(arrayPar)
 // da seguinte forma: "O elemento do índex `i` é: `numero`". Depois, **imprima** este novo array.
 
 // e) Escreva um programa que imprima no console o maior e o menor números contidos no array original
+
