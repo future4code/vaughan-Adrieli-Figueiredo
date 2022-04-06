@@ -15,7 +15,8 @@ DATE - DATA NORMAL // PODERIA SER DATETIME SE FOSSE REGISTRO DE MOMENTO ESPECIFI
 NOT NULL - PRECISA SER DECLARADO ALGO ALI, NÃO PODE SER UMA COLUNA OU LINHA VAZIA 
 PRIMARY KEY - CHAVE DE IDENTIFICAÇÃO PARA TODOS OS ITENS 
 *******************************************************************************
-*b) - não entendi muito bem, mas pesquisando sobre o comando nao achei nada sobre ele. 
+*b) - SHOW DATABASE - MOSTRA O BANCO DE DADOS QUE ESTÁ SENDO USADO
+SHOW TABLES - MOSTRA AS TABELAS QUE ESTÃO SENDO USADAS NAQUELE BANCO DE DADOS. 
 *******************************************************************************
 *c)
 vai exibir uma tabela descritiva, com a field (id, nome, salary, birth_date, gender), type (varchar e nro de caracteres, float, date), se é null ou não, tipo de key, se é default ou se tem extras;
@@ -45,10 +46,18 @@ VALUES(
   "female"
 );
 *******************************************************************************
-b) *Escreva uma query que tente adicionar um outro elemento a tabela com o mesmo id do item anterior `002`. Isso gerará um erro. Anote a mensagem de erro, traduza (pode usar o Google Tradutor diretamente) e explique porque esse erro aconteceu.*
-
-
-
+b) Error Code: 1062. Duplicate entry '002' for key 'PRIMARY'
+ duplicidade na chave primaria 002.
+*******************************************************************************
+c) Error Code: 1136. Column count doesn't match value count at row 1
+faltou declarar a coluna de data de nascimento e o genero. 
+*******************************************************************************
+d) Error Code: 1364. Field 'name' doesn't have a default value
+a linha nome tem valor indefinido. 
+*******************************************************************************
+e)Error Code: 1292. Incorrect date value: '1950' for column 'birth_date' at row 1
+data foi colocada de forma errada, precisava estar entre aspas.
+===============================================================================
 execicio 3
 
 
