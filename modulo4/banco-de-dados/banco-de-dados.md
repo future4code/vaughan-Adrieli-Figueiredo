@@ -103,13 +103,11 @@ WHERE name  LIKE "%G%" OR name LIKE "%g%" ;
 
 *******************************************************************************
 d) SELECT * FROM Actor 
-WHERE name LIKE "%A%" 
+WHERE (name LIKE "%A%" 
 OR name LIKE "%a%" 
 OR name LIKE "%G%"
-OR name LIKE "%g%"
+OR name LIKE "%g%")
 AND salary BETWEEN 350000 AND 900000;
-
-vem a gloria pires na resposta por causa do G no nome e desconsidera o valor do salario. 
 ===============================================================================
 execicio 5
 Terminamos de fazer um belo estudo sobre a tabela de Atores. Agora, você vai ficar mais independente. Precisamos criar a tabela de Filmes com as informações: id, nome, sinopse, data de lançamento e avaliação (que pode ser de 0 a 10)
