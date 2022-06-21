@@ -1,25 +1,63 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import styled from 'styled-components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Container = styled.div`
+  border: 1px solid black;
+  height: 100vh;
+  box-sizing: border-box;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+`
+
+const Mensagem = styled.div`
+  flex-grow: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column-reverse;
+`
+
+const Campos = styled.div`
+  display: flex;
+`
+
+const NameInput = styled.input`
+  width: 100px;
+`
+
+const MessageInput = styled.input`
+  flex-grow: 1;
+`
+
+const Botão = styled.button`
+  background: lightgrey; 
+`
+
+
+class App extends React.Component {
+  Render() {
+    return (
+      <Container>
+        <Titulo>
+          <p>Whatslab</p>
+        </Titulo>
+        <Mensagem>
+          <p>
+            <strong>Simone</strong>:Olá
+          </p>
+        </Mensagem>
+        <Campos>
+          <NameInput placeholder={'Usuário'} />
+          <MessageInput placeholder={'Mensagem'} />
+          <Botão>Enviar</Botão>
+        </Campos>
+
+      </Container>
+
+    );
+  }
+
 }
 
 export default App;
